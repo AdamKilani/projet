@@ -22,11 +22,10 @@ $(OBJ_DIR)/%.o: $(SRC_DIR)/%.c
 	$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
-	rm -rf $(OBJ_DIR)/* $(BIN_DIR)/* $(DOC_DIR)/*
+	rm -rf $(OBJ_DIR) $(BIN_DIR) $(DOC_DIR)
 
 archive:
 	tar -czvf guessing_game.tar.gz $(SRC_DIR) $(DOC_DIR) Makefile README.md
 
 documentation:
 	doxygen Doxyfile
-
