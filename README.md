@@ -2,10 +2,10 @@
 # Projet-Outillage
 ## Jeu de Devinette
 
-# Introduction
+### Introduction
 Salut ! Prêt pour une aventure de devinette excitante ? Ce petit programme va te mettre au défi de deviner un nombre mystère. C'est super simple, après chaque essai, il te dira si ton nombre est trop grand ou trop petit. Le but ? Trouver le fameux nombre secret en faisant le moins d'essais possible.
 
-# Utilisation
+### Utilisation
 1. Clonez le dépôt.
 2. Compilez le programme à l'aide du fichier Makefile fourni :
     ```
