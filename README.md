@@ -1,5 +1,5 @@
 
-###Projet-Outillage
+### Projet-Outillage
 # Jeu de Devinette
 
 ## Introduction
@@ -36,7 +36,7 @@ Au cours du développement, nous avons relevé le défi de rendre le jeu encore 
 ## Défauts
 -Malgré nos efforts pour garantir une expérience de jeu fluide, nous avons identifié un défaut mineur. Dans certaines situations rares, le programme peut ne pas répondre de manière optimale aux entrées non numériques de l'utilisateur. Nous travaillons activement à résoudre ce problème pour assurer une expérience utilisateur sans accroc et intuitive. Votre retour serait précieux pour nous aider à améliorer le jeu !
 
-##Archive
+## Archive
 ```
 tar -cvz inc game.c game.h main.c  Doxyfile makefile README.md .gitignore -f techdev-projet-outillage-kilaniadam.tar.gz
 ```
