@@ -22,33 +22,33 @@ Salut ! Prêt pour une aventure de devinette excitante ? Ce petit programme va t
     make clean
     ```
 
-## Structure
+### Structure
 - `main.c`: Contient la fonction principale où le jeu est initié.
 - `game.c`: Contient l'implémentation du jeu de devinette.
 - `game.h`:  Fichier d'en-tête déclarant la fonction play_game.
 
-## Défis
+### Défis
 Au cours du développement, nous avons relevé le défi de rendre le jeu encore plus engageant et interactif. L'amélioration de l'expérience utilisateur tout en maintenant la simplicité du jeu s'est avérée être une tâche intéressante. Nous avons également exploré des moyens d'ajouter des fonctionnalités bonus pour rendre le processus de devinette encore plus captivant.
 
-## Fonctionnalités supplémentaires
+### Fonctionnalités supplémentaires
 - Validation d'entrée pour gérer les entrées non numériques.
 
-## Défauts
+### Défauts
 -Malgré nos efforts pour garantir une expérience de jeu fluide, nous avons identifié un défaut mineur. Dans certaines situations rares, le programme peut ne pas répondre de manière optimale aux entrées non numériques de l'utilisateur. Nous travaillons activement à résoudre ce problème pour assurer une expérience utilisateur sans accroc et intuitive. Votre retour serait précieux pour nous aider à améliorer le jeu !
 
-## Archive
+### Archive
 ```
 tar -cvz inc game.c game.h main.c  Doxyfile makefile README.md .gitignore -f techdev-projet-outillage-kilaniadam.tar.gz
 ```
 
 
-## Documentation
+### Documentation
 La documentation du projet peut être générée à l'aide de Doxygen. Pour générer la documentation, exécutez la commande suivante dans le répertoire du projet :
 ```
 doxygen Doxyfile
 ```
 
-## Debugging
+### Debugging
 
 Pour analyser l'utilisation de la mémoire du programme à l'aide de Valgrind, utilisez la commande suivante :
 ```
